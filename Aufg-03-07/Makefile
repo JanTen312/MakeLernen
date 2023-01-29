@@ -1,11 +1,11 @@
 default:mach
 
 groesserdrei.o:groesserdrei.c
-  gcc -c groesserdrei.c -o groesserdrei.o
+	gcc -c groesserdrei.c -o groesserdrei.o
   
 mach:groesserdrei.o
-  gcc groesserdrei -o mach
+	gcc groesserdrei.o -o mach
   
 clean:
-  rm -f *.o
-  rm -f mach
+	rm -f *.o
+	rm -f mach
