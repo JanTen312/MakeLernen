@@ -1,4 +1,4 @@
-HEADERS=head.h
+HEADERS=prototyp.h
 
 default: main
 
