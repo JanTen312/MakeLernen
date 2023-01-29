@@ -1,4 +1,4 @@
-#include "funktion.h"
+#include "funktion.c"
   void main() {
     vergleich();
     }
