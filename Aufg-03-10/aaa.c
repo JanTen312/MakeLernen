@@ -1,5 +1,5 @@
 #include <stdio.h>
-  int funktion() {
+  void main() {
     int a;
     printf("\n\nGeben Sie eine Zahl zwischen 1-7 ein:  ");
     scanf("%d",&a);
