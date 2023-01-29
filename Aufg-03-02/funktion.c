@@ -10,4 +10,5 @@
         printf("Die größere Zahl ist: %.2f \n\n",b);
       }else{
         printf("Die größere Zahl ist: %.2f \n\n",a);
-  }      
+  } 
+  }     
