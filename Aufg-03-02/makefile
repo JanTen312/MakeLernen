@@ -9,7 +9,7 @@ funktion.o: funktion.c $(HEADERS)
 	gcc -c funktion.c -o funktion.o
       
 mach: main.o funktion.o
-	gcc main.o funktion.o -o main
+	gcc main.o funktion.o -o mach
       
 clean:
 	-rm -f *.o
